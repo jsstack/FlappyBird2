@@ -1,0 +1,21 @@
+
+      body {
+          margin: 0px;
+          padding: 0px;
+      }
+      #container {
+          background-color: #fff;
+          display: inline-block;
+          width: 500px;
+          height: 800px;
+      }
+      #buttons {
+          position: absolute;
+          top: 5px;
+          left: 10px;
+      }
+      #buttons > input {
+          padding: 10px;
+          display: block;
+          margin-top: 5px;
+      }
