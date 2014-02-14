@@ -77,7 +77,7 @@ window.onload = function() {
         },
         false);
     };
-    imageObj.src = 'http://www.html5canvastutorials.com/demos/assets/blob-sprite.png';
+    imageObj.src = 'blob-sprite.png';
 
     var piplineImg = new Image();
     var _piplineImgLoaded = false;
@@ -85,7 +85,7 @@ window.onload = function() {
         _piplineImgLoaded = true;
     };
 
-    piplineImg.src = "http://stonesun.kd.io/pipline.png";
+    piplineImg.src = "pipline.png";
     var firstPipline = null;
     setTimeout(function() {
         console.debug(_piplineImgLoaded);
